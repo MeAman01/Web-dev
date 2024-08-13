@@ -50,8 +50,10 @@
     <h1>
         The sky is cloudy &#9729; & it will rain &#9730; today.
     </h1>
+    <hr>
 
-
+<!-- creating a table  -->
+ <h1>table creation</h1>
     <table border="black">
         <caption>A test table with merged cells</caption>
 
@@ -93,6 +95,56 @@
 <button>search</button>
 </form>
 
+<hr>
+
+<!-- checkbox -->
+ <form action="/server">
+<div>
+    choose your subjects
+<input type="radio" id="math" name="subjects" value="math"/>
+<label for="math">math</label>
+<input type="radio" id="english" name="subjects" value="eng"/>
+<label for="english">english</label>
+<input type="radio" id="sst" name="subjects" value="sst"/>
+<label for="sst">sst</label>
+<button>Register</button>
+</div>
+
+
+
+<!-- dropdown -->
+ <select name="profession" id="profession">
+ <option value="student">student</option>
+ <option value="doctor">doctor</option>
+ <option value="engineer">engineer</option>
+ <option value="others">others</option>
+</select>
+
+<!-- select your volume level -->
+ select volume
+ <input type="range" id="vol" min="0" max="100" name="volume">
+</form>
+<hr>
+
+<!-- registration form -->
+ <h1>Registration form</h1>
+ <form action="server2">
+    <input type="text" placeholder="First name" name="First name">
+    <input type="text" placeholder="Last name" name="Last name">
+    <br>
+       <label for="gender">Please select your gender</label> 
+       <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="others">others</option>
+        <div>
+        Do you agree to all terms of service? <input type="checkbox" id="tos_agree" name="tos_agree">
+        <label for="tos_agree">yes I agree</label>
+    </div>
+        <button>Register</button>
+        
+    </select>
+ </form>
 
 </body>
 
