@@ -1,16 +1,26 @@
 *{
-    font-family: 'Courier New';
+   text-align: center;
 }
 
-h1{
-    color: #1b74e4;
+#mainTopic{
+    color: blue;
 }
 
-#searchbtn {
+h1, h3, h5{
+    font-style: Georgia;
+}
+
+.class{
+    color: blue;
+}
+
+.para{
+    background-color: cornflowerblue;
     color: white;
-    background-color: black;
 }
 
-.userbtn{
-    background-color: aqua;
+button{
+background-color: purple;
+color: azure;
 }
+
